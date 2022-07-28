@@ -1,0 +1,311 @@
+.navbar {
+  background-color: black;
+  color: white !important;
+  height: 80px;
+}
+
+.brand {
+  color: white !important;
+  font-size: 23px !important;
+  margin-left: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #7574e8 !important;
+}
+
+.brand:hover {
+  color: #7574e8 !important;
+}
+
+.nav {
+  color: white !important;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav:hover {
+  color: #7574e8 !important;
+  border-bottom: 1px solid #7574e8;
+}
+
+.button {
+  background-color: #7574e8 !important;
+  padding: 10px !important;
+  border: none !important;
+  font-weight: 700 !important ;
+  border-radius: 0px !important;
+}
+
+.real {
+  margin-top: 20px;
+  height: 600px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.inn {
+    position: relative;
+    left: 80px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 77, 129, 1) 20%,
+    rgba(113, 117, 235, 1) 63%
+  );
+  padding: 9px;
+  width: 390px;
+  text-align: center !important;
+}
+
+.man {
+  margin-top: 30px;
+  color: #ccccccbb !important;
+}
+
+.Built {
+  height: 300px;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 991.98px) { 
+  .Built {
+    height: 500px !important;
+  }
+  .ova{
+    display: none;
+  }
+  .tech{
+    height: 900px !important;
+    text-align: center;
+  }
+  .ind{
+    width: 400px;
+    
+  }
+  .we{
+    font-size: 14px;
+  }
+  .non{
+    height: 400px;
+    font-size: 5px !important;
+  }
+  .super{
+    height: 1350px !important;
+    text-align: center;
+  }
+  
+ }
+
+
+@media (max-width: 767.98px) {
+  .Built {
+    height: 800px !important;
+    margin: 30px;
+  }
+  .real{
+    height: 500px;
+  }
+  .year{
+    padding: 25px;
+  }
+
+  .ova{
+    display: none;
+  }
+  .tech{
+    height: 850px !important;
+  }
+  .super{
+    height: 1350px !important;
+  }
+  .fellow{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .blog{
+    text-align: center;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .Built {
+    height: 400px;
+  }
+  .ova{
+    display: none;
+  }
+  .tri{
+    display: none;
+  }
+  .poly{
+    display: none;
+  }
+  .non{
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .Built {
+    height: 300px;
+  }
+  .year{
+    border-right: none !important;
+  }
+  .ova{
+    display: none;
+  }
+  .robo{
+    width: 1100px;
+  }
+  
+}
+
+@media (max-width: 575.98px) { 
+    .Built{
+      height: 700px;
+        margin: 40px;
+    }
+    .real{
+      height: 500px;
+    }
+    .fellow{
+      text-align: center;
+      margin-bottom: 50px;
+    }
+   
+ }
+
+.year {
+  border-right: 1px solid #333333;
+}
+.year h1 {
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.tech {
+  height: 700px;
+}
+
+.lorem {
+  position: relative;
+  top: 50px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pass {
+  font-weight: 600;
+}
+
+.ova {
+  position: relative;
+  bottom: 300px;
+  left: 550px;
+}
+
+.tri {
+  position: relative;
+  right: 550px;
+  top: 300px;
+}
+
+.poly {
+  position: relative;
+  left: 410px;
+  top: 10px;
+}
+
+.super {
+  height: 620px;
+  color: white;
+}
+
+.out {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.lative {
+  border-right: 1px solid #333333;
+}
+
+.pro {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.clan{
+    background-color: black;
+} 
+
+.fellow {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.visual {
+  position: absolute;
+}
+
+
+.any {
+  position: relative;
+  top:0px;
+  bottom: 22000px !important;
+  background-color: none !important;
+  margin: 10px;
+}
+.bat {
+  position: relative;
+  top: 220px;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) { 
+  .follow{
+      justify-content: center;
+  }
+  .bat {
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+  .any {
+    position: relative;
+    top: -140px !important;
+  }
+  
+}
+
+@media (max-width: 1399.98px) {
+  .idea{
+    height:1200px ;
+  }
+  .visua{
+    width: 350px;
+  }
+}
+
+@media (max-width: 1199.98px) { 
+  .visua{
+    width: 300px;
+  }
+  .any{
+    font-size: 15px;
+  }
+  .idea{
+    height: 1140px;
+  }
+
+ }

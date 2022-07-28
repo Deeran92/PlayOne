@@ -1,0 +1,178 @@
+
+.navbar{
+    background-color: black;
+    color: white !important;
+    height: 80px;
+   
+    
+}
+
+.brand{
+    color: white !important;
+    font-size: 23px !important;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.brand:hover{
+    color:#7574e8 !important;
+}
+
+.nav{
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #7574e8 !important;
+}
+
+.nav:hover{
+    color: #7574e8 !important;
+    border-bottom: 1px solid #7574e8;
+}
+
+.navbar-light{
+    color: black !important;
+}
+
+.navbar-toggler-icon{
+    background-color: rgba(244, 238, 238, 0.988) !important;
+}
+
+.navbar-toggler {
+ 
+    color: rgba(255, 255, 255, 0.813) !important;
+    background-color: rgb(10, 10, 10)  !important;
+}
+
+.button{
+    background-color: #7574e8 !important;
+    padding: 10px!important;
+    border: none !important;
+    font-weight: 700 !important ;
+    border-radius: 0px !important;
+}
+.clan{
+    background-color: black;
+} 
+.new{
+    margin-top: 99px;
+    top:200px;
+    color: white;
+}
+
+
+@media (max-width: 767.98px) { 
+    .follow{
+        justify-content: center;
+    }
+    .ter{
+        height: 1200px !important;
+    }
+    .cla{
+        background-color: black;
+        height: 200vh;
+    } 
+ }
+ 
+ @media (max-width: 1199.98px) {
+    .cla{
+        background-color: black;
+        height: 1200px;
+    } 
+
+    
+ }
+
+ 
+@media (max-width: 1399.98px) {
+    .ter{
+        background-color: black;
+        height: 1200px !important;
+    } 
+}
+.look{
+    background: rgb(255,77,129);
+    background: linear-gradient(90deg, rgba(255,77,129,1) , rgba(113,117,235,1) );
+    width: 300px;
+
+}
+
+.car{
+    margin-top: 70px !important;
+}
+
+.empty{
+    
+    width: 500px;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.ben{
+    background-color: #1d1d1daf !important;
+    border-color: #1d1d1daf !important;
+    border-radius: 0px !important;
+    margin-bottom: 30px;
+
+}
+
+.ben:hover{
+    border-color: #7574e8 !important;
+}
+
+
+ 
+.with{
+    text-align: left !important;
+    float:  left !important ;
+}
+
+.follow{
+    border-top: 1px solid ;
+    display: flex;
+    
+    
+}
+
+.about{
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.cn{
+    background-color: black;
+}
+
+
+.prop{
+    background-color: #7574e8 !important;
+    padding: 10px!important;
+    border: none !important;
+    font-weight: 600 !important ;
+    border-radius: 0px !important;
+    width: 500px;
+}
+
+.form{
+    margin-bottom: 30px !important;
+}
+
+.pack{
+    margin-top: 120px;
+    color: white;
+    text-align: left !important;
+}
+
+.ter{
+    height: 890px;
+}

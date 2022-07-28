@@ -1,0 +1,178 @@
+.navbar {
+  background-color: black;
+  color: white !important;
+  height: 80px;
+}
+
+.brand {
+  color: white !important;
+  font-size: 23px !important;
+  margin-left: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #7574e8 !important;
+}
+
+.brand:hover {
+  color: #7574e8 !important;
+}
+
+.nav {
+  color: white !important;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav:hover {
+  color: #7574e8 !important;
+  border-bottom: 1px solid #7574e8;
+}
+
+.button {
+  background-color: #7574e8 !important;
+  padding: 10px !important;
+  border: none !important;
+  font-weight: 700 !important ;
+  border-radius: 0px !important;
+}
+
+.game {
+  margin-top: 80px;
+  height: 340px;
+  text-align: center;
+  color: white;
+}
+
+.clg {
+  text-align: center;
+}
+
+.hello {
+  height: 500px;
+}
+
+.dot {
+  height: 750px;
+  color: white;
+}
+
+.have {
+  height: 650px;
+  color: white;
+}
+
+.design {
+  height: 500px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.clan {
+  background-color: black;
+}
+
+.deve {
+  height: 100px;
+  color: white !important;
+  position: relative;
+  top: 80px;
+}
+
+.warn {
+  border-right: 1px solid #333333;
+}
+
+.we {
+  position: relative;
+  top: 80px;
+}
+
+.social {
+  padding: 20px;
+  padding-left: 80px;
+}
+
+@media (max-width: 1399.98px) {
+  .dot {
+    height: 1150px;
+  }
+  .app {
+    margin-bottom: 30px;
+  }
+
+  .have {
+    height: 860px;
+  }
+  .warn {
+    text-align: center !important;
+    margin-bottom: 60px;
+    border-right: none;
+  }
+  .lative {
+    border-right: none;
+  }
+  .design {
+    height: 500px;
+  }
+  .we {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .dot {
+    height: 1260px;
+  }
+  .design {
+    height: 1200px;
+    text-align: center;
+  }
+  .mat {
+    margin-top: 40px;
+    border-bottom: 1px solid #333333 !important;
+  }
+  .warn {
+    margin-bottom: 40px;
+  }
+  .mod {
+   text-align: center !important;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .follow {
+    justify-content: center;
+  }
+
+  .dot {
+    height: 1350px;
+  }
+  .have {
+    height: 750px;
+  }
+
+  .soc{
+    width: 69px;
+  }
+  .de{
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 575.98px) { 
+    .soc{
+        width: 50px;
+    }
+    
+ }
+
+ @media (max-width: 465.98px) { 
+    .de{
+        font-size: 10px !important;
+      }
+ }

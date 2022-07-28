@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: black;
+  color: white !important;
+  height: 80px;
+}
+
+.brand {
+  color: white !important;
+  font-size: 23px !important;
+  margin-left: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.brand:hover {
+  color: #7574e8 !important;
+}
+
+.nav {
+  color: white !important;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav a.active {
+  font-weight: bold;
+  color: #7574e8 !important;
+}
+
+.active-link {
+  color: aqua !important;
+}
+
+.nav:hover {
+  color: #7574e8 !important;
+  border-bottom: 1px solid #7574e8;
+}
+
+.button {
+  background-color: #7574e8 !important;
+  padding: 10px !important;
+  border: none !important;
+  font-weight: 700 !important ;
+  border-radius: 0px !important;
+}
+
+.first {
+  margin-top: 150px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first h1 {
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important ;
+}
+
+.innvo {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 77, 129, 1) 20%,
+    rgba(113, 117, 235, 1) 63%
+  );
+  font-size: 40px;
+  padding: 5px;
+}
+.creat {
+  height: 670px;
+}
+
+@media (max-width: 767.98px) {
+  .creat {
+    height: 550px;
+    text-align: center;
+  }
+
+  .first h1 {
+    font-size: 35px !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 !important ;
+  }
+
+  .innvo {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 77, 129, 1) 20%,
+      rgba(113, 117, 235, 1) 63%
+    );
+    
+    padding: 0px;
+  }
+  
+}
+
+@media (max-width: 991.98px) {
+  .innvo {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 77, 129, 1) 20%,
+      rgba(113, 117, 235, 1) 63%
+    );
+    text-align: center;
+    padding: 0px;
+  }
+
+  .creat {
+    height: 500px;
+    text-align: center;
+  }
+
+  .first h1 {
+    font-size: 40px;
+    
+    text-align: center !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600 !important ;
+  }
+
+  .triangle {
+    display: none;
+  }
+  .oval {
+    display: none;
+  }
+
+  .polygon {
+    display: none;
+  }
+
+  .many {
+    margin-top: 40px;
+  }
+  .first {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  
+}
+
+@media (max-width: 575.98px) {
+  .creat {
+    height: 500px;
+  }
+}
+
+.triangle {
+  position: relative;
+  right: 300px;
+  top: 80px;
+}
+
+.oval {
+  position: relative;
+  left: 300px;
+  top: 10px;
+}
+
+.rectangle {
+  position: relative;
+  right: 380px;
+  bottom: 25px;
+}
+
+.polygon {
+  position: relative;
+  bottom: 70px;
+  left: 380px;
+}
+
+.many {
+  position: relative;
+  bottom: 60px;
+  color: #ccccccbb !important;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.our {
+  margin-top: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 !important ;
+}
+
+.does {
+  height: 350px;
+  color: white;
+}
+
+.line {
+  border: #7574e8 !important;
+  background-color: #7574e8 !important ;
+  border-top-color: #7574e8 !important;
+}
+
+.dak {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 991.98px) {
+  .google {
+    height: 800px;
+  }
+}
+
+.google {
+  height: 300px;
+}
+
+@media (max-width: 767.98px) {
+  .google {
+    height: 500px;
+    display: flex;
+  }
+  .clt {
+    padding: 0px;
+  }
+}
+
+.what {
+  width: 600px !important;
+  height: 40px;
+}
+
+.serve {
+  width: 10px;
+}
+
+.are {
+  height: 1300px;
+  color: white;
+}
+
+@media (max-width: 991.98px) {
+  .are {
+    height: 1500px;
+    color: white;
+  
+  }
+}
+
+@media (max-width: 767.98px) {
+  .are {
+    height: 2960px;
+    text-align: center;
+  }
+  .vare{
+    margin-bottom: 30px;
+    border-right: none !important;
+    border-bottom: 1px solid #333333;
+}
+}
+
+@media (max-width: 575.98px) {
+  .are {
+    height: 2970px !important;
+  }
+}
+
+.some {
+  border-bottom: 1px solid #333333;
+}
+
+.vare {
+  border-right: 1px solid #333333;
+}
+
+.never {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.ser {
+  background-color: #7574e8 !important;
+  padding: 10px !important;
+  border: none !important;
+  font-weight: 600 !important ;
+  border-radius: 0px !important;
+}
+
+.code {
+  height: 750px;
+  color: white;
+}
+
+@media (max-width: 991.98px) {
+  .code {
+    height: 1100px;
+    color: white;
+  }
+  .crik {
+    height: 400px;
+  }
+  .iphone {
+    width: 500px;
+  }
+}
+
+.iphone {
+  position: relative;
+  bottom: 50px;
+}
+
+.who {
+  width: 550px !important;
+  height: 40px;
+}
+
+.like {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.best {
+  height: 850px;
+  color: white;
+}
+
+@media (max-width: 767.98px) {
+  .best {
+    height: 1480px !important;
+    color: white;
+  }
+  .bitmap {
+    position: relative !important;
+    top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+  .do{
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .best {
+    height: 1200px;
+    color: white;
+  }
+  .robo{
+    width: 970px !important;
+  }
+}
+
+.bitmap {
+  position: relative;
+  top: 140px;
+}
+
+.idea {
+  background-color: black;
+  height: 1200px;
+  color: white;
+  border-bottom: 1px solid #333333;
+}
+
+@media (max-width: 991.98px) {
+  .idea {
+    height: 1900px !important;
+    text-align: center;
+  }
+  .robo{
+    position: relative;
+    right: 80px;
+    width: 700px !important;
+  }
+  .in{
+    font-size: 23px;
+  }
+  
+
+}
+
+@media (max-width: 767.98px) {
+  .idea {
+    height: 1470px;
+  }
+}
+
+
+
+@media (max-width: 767.98px) {
+  .robo { 
+    position: relative;
+    text-align: center;
+    left: 5px;
+    width: 690px !important;
+  }
+  .won {
+    position: relative;
+    top: 280px !important;
+    font-size: 15px;
+  }
+  .for {
+    margin: 30px !important;
+  }
+  .visua {
+    position: relative;
+}
+
+}
+@media (max-width: 575.98px) { 
+    .robo {
+        width: 500px !important;
+        
+      }
+     
+ }
+.blog {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.robo {
+  position: absolute;
+}
+
+.won {
+  position: relative;
+  top: 280px;
+  background-color: none !important;
+}
+
+.clan {
+  background-color: black;
+}
+
+.for {
+  position: relative;
+  top: 300px;
+}
+
+.bar {
+  position: relative;
+  top: 220px;
+  text-align: center;
+}
+
+.the {
+  background-color: #7574e8 !important;
+  padding: 10px !important;
+  border: none !important;
+  font-weight: 600 !important ;
+  border-radius: 0px !important;
+}
+.scal {
+  height: 320px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.ready {
+  font-weight: 600;
+}
+
+.get {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alt {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 77, 129, 1) 20%,
+    rgba(113, 117, 235, 1) 63%
+  );
+  font-weight: 600;
+  padding: 10px;
+  width: 430px;
+  text-align: center !important;
+}
+
+@media (max-width: 767.98px) {
+  .follow {
+    justify-content: center;
+  }
+  
+  .visua {
+    margin-bottom: 20px;
+  }
+
+  .bar {
+    position: relative;
+    top: 200px;
+    text-align: center;
+  }
+  .ve{
+    text-align: center;
+  }
+}
+
+.any{
+    position: relative;
+    top: -125px !important;
+}

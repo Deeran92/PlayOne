@@ -1,0 +1,183 @@
+.navbar{
+    background-color: black;
+    color: white !important;
+    height: 80px;
+   
+    
+}
+
+.brand{
+    color: white !important;
+    font-size: 23px !important;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #7574e8 !important;
+}
+
+
+.brand:hover{
+    color:#7574e8 !important;
+}
+
+.nav{
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav:hover{
+    color: #7574e8 !important;
+    border-bottom: 1px solid #7574e8;
+}
+
+.button{
+    background-color: #7574e8 !important;
+    padding: 10px!important;
+    border: none !important;
+    font-weight: 700 !important ;
+    border-radius: 0px !important;
+}
+
+.part{
+    height: 600px;
+    color: white;
+}
+.clan{
+    background-color: black;
+} 
+
+.Future{
+    height: 1200px;
+    color: white;
+}
+
+.move{
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+@media (max-width: 1399.98px) { 
+    .part{
+        height: 850px;
+        align-items: center !important;
+        justify-content: center !important;
+        
+    }
+    .pre{
+        text-align: center;
+    }
+
+    .be{
+        width: 1100px;
+    }
+   
+    .red{
+        display: none;
+    }
+    .Future{
+        text-align: center;
+        height: 2200px;
+    }
+ }
+
+
+
+
+
+.last{
+    background: linear-gradient(90deg, rgba(255,77,129,1) 20%, rgba(113,117,235,1) 63%);
+    
+
+}
+
+
+.fox{
+    display: flex;
+}
+
+.red{
+    position: relative;
+    text-align: right;
+    bottom: 60px;
+}
+
+.arow{
+    color: #7574e8 !important;
+    
+}
+
+.guy{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600 !important;
+
+}
+
+.load{
+    text-align: center;
+}
+
+.empt{
+    width: 430px;
+}
+
+.scar{
+    margin-top: 120px;
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.awar{
+    position: relative;
+    left: 40px;
+
+}
+
+@media (max-width: 767.98px) { 
+    .follow{
+        justify-content: center;
+    }
+    .be{
+        width: 30px !important;
+    }
+    
+ }
+
+ @media (max-width: 991.98px) { 
+    .follow{
+        justify-content: center;
+    }
+    .be{
+        width: 590px !important;
+    }
+ }
+
+ @media (max-width: 1199.98px) { 
+    .follow{
+        justify-content: center;
+    }
+    .be{
+        width: 900px;
+    }
+  }
+
+  @media (max-width: 575.98px) { 
+    .be{
+        width: 450px !important;
+    }
+   }

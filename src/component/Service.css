@@ -1,0 +1,78 @@
+.navbar{
+    background-color: black;
+    color: white !important;
+    height: 80px;
+   
+    
+}
+
+.brand{
+    color: white !important;
+    font-size: 23px !important;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.brand:hover{
+    color:#7574e8 !important;
+}
+
+.nav{
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav:hover{
+    color: #7574e8 !important;
+    border-bottom: 1px solid #7574e8;
+}
+
+.button{
+    background-color: #7574e8 !important;
+    padding: 10px!important;
+    border: none !important;
+    font-weight: 700 !important ;
+    border-radius: 0px !important;
+}
+
+.mobile{
+    height: 500px;
+    color: white;
+}
+
+.cover{
+    height: 600px;
+}
+
+.core{
+    height: 600px;
+
+}
+
+.shop{
+    justify-content:center;
+    align-items: center;
+}
+
+.smart{
+    height: 400px;
+    color: white;
+}
+
+.check{
+    text-align: center;
+    height: 500px;
+    color: white;
+}
+
+.goal{
+    width: 100px !important;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
