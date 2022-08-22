@@ -6,10 +6,12 @@ import Services from "./component/Services";
 import Service from "./component/Service";
 import Blog from "./component/Blog";
 import Contact from "./component/Contact";
+import ScrollToTop from "./component/ScrollToTop";
 
 function Root() {
   return (
     <BrowserRouter>
+     <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
